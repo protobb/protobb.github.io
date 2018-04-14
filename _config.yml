@@ -9,12 +9,13 @@ github_username:  janelin612
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-hydeout
+theme: minima
 
 #Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
 
 #Plugins settings
 paginate: 2
