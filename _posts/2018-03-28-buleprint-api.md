@@ -25,17 +25,20 @@ title:  "使用Blueprint撰寫API文件"
 
 	FORMAT:1A 
 	HOST: http://your.domain.com/api
+
 寫在md檔最開頭，分別用來記錄使用的Blueprint語法版本與API的主機位址  
 後者要寫不寫隨便，有寫的話Gen出來的API說明會包含完整網址
 
 ### 標題
 
 	# 我的API文件
+
 整個MD檔第一個 `#` 會被當成整份文件的標題
 
 ### 群組
 
 	# Group 訂單
+	
 使用 `Group` 關鍵字的 `#` 會被視為API群組名稱，可以用此為API分類
 
 ### Resource
