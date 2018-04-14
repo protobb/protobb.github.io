@@ -13,6 +13,7 @@ theme: jekyll-theme-hydeout
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 paginate: 2
 
