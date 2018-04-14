@@ -1,8 +1,9 @@
+#Basic Setting
 title: Tars表示
 email: janelin612@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   工程師不打誑語
-baseurl: https://janelin612.github.io/ # the subpath of your site, e.g. /blog
+baseurl: / # the subpath of your site, e.g. /blog
 url: https://janelin612.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  janelin612
 
@@ -10,13 +11,16 @@ github_username:  janelin612
 markdown: kramdown
 theme: jekyll-theme-hydeout
 
-
+#Plugins
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
+#Plugins settings
 paginate: 2
-
 feed:
   path: atom.xml
 
-
+#Other vars
+ga_id: UA-38227412-4
+fb_id: id
