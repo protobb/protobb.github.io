@@ -5,7 +5,7 @@ title:  "Tomcat + Gitlab CI 配置持續整合環境"
 
 ![](http://i.imgur.com/WAzZmtT.jpg)
 
-自從公司 gitlab 架起來之後，一直想要來試試看有沒有辦法實現自動部屬 j2ee 的 web application 到客戶家的 tomcat server 上。  
+自從公司 gitlab 架起來之後，一直想要來試試看有沒有辦法實現自動部署 j2ee 的 web application 到客戶家的 tomcat server 上。  
 經過一整個下午的奮鬥，於是有了這篇簡單的紀錄。
 
 # 環境 #
@@ -49,9 +49,9 @@ jar -cvf {PROJECT_NAME}.war * WEB-INF
  - `-v` 是用來將細節print出來，可下可不下，`-c` 跟 `-f` 則是一定要的東西
  - 第二個是war檔的檔名，自己決定吧
  - `*` 意味著整個目錄 (`./WebContent/*`) 內的東西通通都要進去
- - `WEB-INF` 則是自己指定自己的 manifest 檔案所在目錄 (`./WebContent/WEB-INF`) ，這部分由於 Eclipse 幫我建好了，所以我如果沒有指定的話，部屬上去之後會無法啟動  
+ - `WEB-INF` 則是自己指定自己的 manifest 檔案所在目錄 (`./WebContent/WEB-INF`) ，這部分由於 Eclipse 幫我建好了，所以我如果沒有指定的話，部署上去之後會無法啟動  
 
-執行完後應該可以在目錄看到你的 war 檔了，可以拿去部屬看看能否成功 ：D
+執行完後應該可以在目錄看到你的 war 檔了，可以拿去部署看看能否成功 ：D
 
 # 第二部分：Tomcat 環境準備 #
 
@@ -121,4 +121,4 @@ build:
 # 後記
 
 1. 其實我猜 Runner 才是最難搞的部分，結果我剛好可以撿同事現成的東西來用，省下了不少工啊 XD
-2. 改天再來把 slack 的 webhook 掛上去，未來可以直接從 slack 上面看到部屬結果 
+2. 改天再來把 slack 的 webhook 掛上去，未來可以直接從 slack 上面看到部署結果 

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: C#.NET專案使用Gitlab CI部屬至IIS
+title: C#.NET專案使用Gitlab CI部署至IIS
 ---
 
 ![](https://i.imgur.com/WAzZmtT.jpg)
-自上次成功使用GitlabCI部屬WAR檔之後，什麼專案都想嘗試用CI部屬看看
+自上次成功使用GitlabCI部署WAR檔之後，什麼專案都想嘗試用CI部署看看
 
 ## 安裝
 ### 1.前置準備
