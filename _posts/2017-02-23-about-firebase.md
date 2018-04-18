@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Firebase 小小心得"
+image: /public/res/firebase.png
 ---
-![](https://1.bp.blogspot.com/-YIfQT6q8ZM4/Vzyq5z1B8HI/AAAAAAAAAAc/UmWSSMLKtKgtH7CACElUp12zXkrPK5UoACLcB/s1600/image00.png)
+![](/public/res/firebase.png)
 Firebase 目前最新的版號是10.2.0  
 稍微記錄一下使用心得
 

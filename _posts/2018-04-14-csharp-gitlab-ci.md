@@ -1,9 +1,10 @@
 ---
 layout: post
 title: C#.NET專案使用Gitlab CI部署至IIS
+image: /public/res/WAzZmtT.jpg
 ---
 
-![](https://i.imgur.com/WAzZmtT.jpg)
+![](/public/res/WAzZmtT.jpg)
 自上次成功使用GitlabCI部署WAR檔之後，什麼專案都想嘗試用CI部署看看
 
 ## 安裝

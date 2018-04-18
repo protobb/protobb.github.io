@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
+image: /public/res/tars.jpg
 ---
 
 碼農。對外宣稱是Android工程師，但由於公司性質的關係，什麼都寫一點，什麼都不太專精。
