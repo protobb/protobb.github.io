@@ -5,7 +5,7 @@ title:  "Git 大量修改作者資料"
 
 # 前言 #
 我早期的commit沒有設定好author name &email導致那幾筆commit在Github上看就是跟別人不一樣，強迫症如我，就想說找找有沒有辦法改...
-
+<!-- more -->
 # 方法 #
 其實Github早就幫大家準備好Script了，照著做就可以完成  
 連結於此:

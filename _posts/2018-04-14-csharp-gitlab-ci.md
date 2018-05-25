@@ -7,6 +7,8 @@ image: /public/res/WAzZmtT.jpg
 ![](/public/res/WAzZmtT.jpg)
 自上次成功使用GitlabCI部署WAR檔之後，什麼專案都想嘗試用CI部署看看
 
+<!-- more -->
+
 ## 安裝
 ### 1.前置準備
 首先，你要有一台 IIS Server

@@ -7,7 +7,7 @@ title:  "Firebase檢查GooglePlayService是否可用"
 Firebase 自從被估狗買走之後，就算是 GooglePlayService 的延伸吧，所以一樣會有如果手機沒有 GooglePlay 服務(像是中國白牌手機)就沒有 Firebase 可以用的問題。  
 
 Firebase 本身的 API 卻沒有提供檢查該手機有沒有 Firebase 可以用的方法。還好，前面提到他一樣是基於 GooglePlayService ，所以我們可以用該手機有沒有 GooglePlayService 的結果作為 Firebase 可不可以用的依據。  
-
+<!-- more -->
 ## 問題 ##
 但事情總是沒有那麼單純，不然我也不用特地記下來了。  
 翻了翻[官方文件](https://developers.google.com/android/reference/com/google/android/gms/common/GoogleApiAvailability)，得知我要 call 的 method叫做：
