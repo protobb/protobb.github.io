@@ -19,7 +19,7 @@ image: /public/res/cyberspace-2784907_640.jpg
 + MS SQL
 + .NET Framework
 
-本篇不會談到SQL Server的部分，那是我唯一有同事幫忙處理的東西，在此默默感謝同時身兼PM跟DBA的妹子同事，雖然她應該看不到這邊文章。
+本篇不會談到SQL Server的部分，那是我唯一有同事幫忙處理的東西，在此默默感謝同時身兼PM跟DBA的妹子同事，雖然她應該看不到這篇文章。
 
 # 1. 硬體
 主要是要記得開防火牆跟設定Router映射，就不浪費篇幅討論怎麼安裝Windows Server跟IIS了，~~其實主機從前公司幹來的拿到的時候已經裝好了~~
@@ -62,8 +62,8 @@ http 走 80 port，而 https 走 443，這兩個port要開，我想會來看這�
 3. 將網站上要你下載的檔案們放到`.well-known\acme-challenge`底下並且確定可以被公開讀取，他會透過讀取此檔案來確認網站是你架的
     > HINT:注意實體資料夾的權限問題
 4. 以上皆沒出錯的話，網站會告訴你成功驗證，並且會要你下載憑證，就乖乖把憑證下載下來吧，裡面應該包含三個檔案:
-    + `PrivateKey`
-    + `CA_bundle.crt`
+    + `private.key`
+    + `ca_bundle.crt`
     + `certificate.crt`
 5. 於同一個畫面輸入email，他會在憑證快要過期的時候通知你，十分貼心
 
@@ -116,6 +116,8 @@ openssl pkcs12 -export -out YOUR\FOLDER\certificate.pfx -inkey YOUR\FOLDER\priva
 如果是客戶的專案，網站上線之後任務就結束了，但現在是自家公司的東西，所以還有一些事情可以做得更好：
 ## 成效追蹤
 一切仰賴估狗大神的[Google Analytics](https://www.google.com/analytics/)，網站寫得夠清楚了，進去一步一步照著把程式碼貼一貼，就初步搞定了。
+> 或許也可以裝個Facebook Pixel
+
 ## 搜尋引擎優化(SEO) 
 此部分主要是去[Search Console](https://www.google.com/webmasters/tools/home?hl=zh-TW)註冊你們家的網站，用來確認估狗的搜尋引擎可以正確爬你們家的網站
 ## 網站性能優化
