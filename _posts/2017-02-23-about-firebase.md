@@ -6,7 +6,9 @@ image: /public/res/firebase.png
 ![](/public/res/firebase.png)
 Firebase 目前最新的版號是10.2.0  
 稍微記錄一下使用心得
+
 <!-- more -->
+
 ## 導入 ##
 由於跟 Android Studio 深度整合，直接於工具列開始導入專案就好，幾乎不用做啥複雜的設定，他會全部裝好，還有簡單的 demo code
 

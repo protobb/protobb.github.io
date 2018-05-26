@@ -4,7 +4,9 @@ title:  "Tomcat Servlet 設定同源政策"
 ---
 
 由於本次交付客戶的程式被要求要設定相關的參數，因此稍微研究了一下同源政策(Same-origin policy)是啥，並記錄一下怎麼在tomcat伺服器上完成設定。
+
 <!-- more -->
+
 **1. 同源政策 (Same-origin Policy)**
 ---
 

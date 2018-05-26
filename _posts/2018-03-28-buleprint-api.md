@@ -8,7 +8,9 @@ title:  "使用Blueprint撰寫API文件"
 我自己過去都用Markdown在寫文件，但是基於md檔本身其實格式過於基本，對於要排版出好閱讀的API文件依舊稍嫌不足，Blueprint本身的概念剛好補足了我對這塊的需求：
 
 > 撰寫一個md檔，然後輸出一個漂亮的API文件
+
 <!-- more -->
+
 ## 前置作業
 
 + Markdown Editor : 不用多作解釋了吧，自己愛用啥就用啥，反正他就只是要寫MD檔，我目前是用VSCode

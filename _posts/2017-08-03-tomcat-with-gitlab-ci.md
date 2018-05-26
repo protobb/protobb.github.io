@@ -8,7 +8,9 @@ image: /public/res/WAzZmtT.jpg
 
 自從公司 gitlab 架起來之後，一直想要來試試看有沒有辦法實現自動部署 j2ee 的 web application 到客戶家的 tomcat server 上。  
 經過一整個下午的奮鬥，於是有了這篇簡單的紀錄。
+
 <!-- more -->
+
 # 環境 #
 
 - GitLab Community Edition 9.3.4
