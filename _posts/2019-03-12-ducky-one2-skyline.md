@@ -5,7 +5,6 @@ image: /public/res/DSC_6549.jpg
 ---
 
 ![](/public/res/DSC_6547.jpg)
-
 靠鍵盤吃飯的軟體工程師幫自己準備一把好的鍵盤也是一種投資，但我自己在租屋處用的鍵盤線都佈好了懶得每天拔來拔去，所以就決定買第二把機械鍵盤。
 
 我原先是使用OZONE的[Strike Battle 87](http://www.coolpc.com.tw/phpBB2/viewtopic.php?f=77&t=166565)，是一把80%的茶軸，個人使用的很習慣，所以我就以80%茶軸作為目標去找，最後讓我找到了這把Ducky的天際線。
