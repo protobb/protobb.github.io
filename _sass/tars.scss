@@ -11,3 +11,11 @@ img{
     text-align: right;
     font-family: monospace;
 }
+
+.bmc-block{
+    padding: 6px 0;
+    .bmc-greeting{
+        font-size: 14px;
+        line-height: 37px;
+    }
+}
