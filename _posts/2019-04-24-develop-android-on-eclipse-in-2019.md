@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2019年還想用Eclipse寫Android的指南
+title: 2019年在Eclipse寫Android的指南
 description: 在2019年，如果你還想用Eclipse開發Android的專案，想必你一定有著滿腹的委屈與說不完的苦衷，就跟我一樣。
 image: /public/res/android-1869510_1280.jpg
 ---
@@ -37,19 +37,18 @@ ADT全名Android Development Toolkit，把它當成是Eclipse跟Android SDK 溝�
     The Android Developer Toolkit may not work properly.
 
 ### 正確的作法
-會出錯的原因是Google早就不管跟Eclipse的相容性了，現在的SDK都是專為Android Studio設計的，所以你要是用最新提供的SDK必死無疑。**請獨立下載一個舊版的，並放在另一個資料夾裡面**
+會出錯的原因是Google早就[停止支援ADT](https://android-developers.googleblog.com/2016/11/support-ended-for-eclipse-android.html)了，現在的SDK都是專為Android Studio設計的，所以你要是用最新提供的SDK必死無疑。**請獨立下載一個舊版的，並放在另一個資料夾裡面**
 
-下載連結：
-+ [https://dl.google.com/android/android-sdk_r24.4.1-windows.zip]()
-+ [https://dl.google.com/android/android-sdk_r24.4.1-macosx.zip]()
-+ [https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz]()
+舊版SDK下載連結：
++ [android-sdk_r24.4.1-windows.zip](https://dl.google.com/android/android-sdk_r24.4.1-windows.zip)
++ [android-sdk_r24.4.1-macosx.zip](https://dl.google.com/android/android-sdk_r24.4.1-macosx.zip)
++ [android-sdk_r24.4.1-linux.tgz](https://dl.google.com/android/android-sdk_r24.4.1-linux.tgz)
 
 完成後回到Eclipse，在`Windows/Preferences/Android`分頁內，指定你的資料夾位置後存檔重開
 ![](/public/res/your-sdk-loc.jpg)
 
 最後在工具列的`Windows`選項內找到你的SDK Manager，一切順利的話應該就可以看到畫面，可以開始選擇你要安裝的版本了  
 ヽ(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)人(∀ﾟ )人(ﾟ∀ﾟ)人( ﾟ∀)ﾉ
-
 
 ## 後記
 不管你最後怎麼解決了Eclipse上的問題，請永遠不要忘了，趕快把專案轉移到Android Studio上才是正確的作法。過時的東西就讓它入土為安吧(合十)
