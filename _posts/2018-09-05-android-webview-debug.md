@@ -44,3 +44,28 @@ webView.getSettings().setDomStorageEnabled(true); //允許使用localstorage
 ## 參考資料
 + 遠程調試 WebView : [https://developers.google.com/web/tools/chrome-devtools/remote-debugging/webviews?hl=zh-tw](https://developers.google.com/web/tools/chrome-devtools/remote-debugging/webviews?hl=zh-tw)
 + Android webview & localStorage : [https://stackoverflow.com/questions/5899087/android-webview-localstorage](https://stackoverflow.com/questions/5899087/android-webview-localstorage)
+
+<script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "HowTo",
+    "name": "使用Google Chrome對Android APP內的WebView進行偵錯",
+    "step": [
+        {
+            "@type": "HowToStep",
+            "name": "配置程式碼",
+            "text": "對你的Webview呼叫setWebContentsDebuggingEnabled()方法"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "啟用USB偵錯",
+            "text": "將手機連上電腦，並確定開發者模式內的USB偵錯已經啟用"
+        },
+        {
+            "@type": "HowToStep",
+            "name": "啟動Chrome",
+            "text": "於Chrome的網址列輸入chrome://inspect，即可進入控制台"
+        }
+    ]
+}
+</script>
