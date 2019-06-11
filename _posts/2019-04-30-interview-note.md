@@ -19,7 +19,7 @@ image: /public/res/writing-1149962_640.jpg
 3. 要去中國出差
 
 ### 人力銀行
-我在104、1111還有[yourator](https://www.yourator.co/)上有開履歷，其中寫的比較認真的是yourator，數字銀行都是從yourator寫好的自傳複製過去的。  
+我在104、1111還有[yourator](https://www.yourator.co/){: target="_blank"}上有開履歷，其中寫的比較認真的是yourator，數字銀行都是從yourator寫好的自傳複製過去的。  
 
 yourator跟前兩個有做出差異化，所以比較難跟數字人力銀行擺在一起比較。  
 單純比較104跟1111的話
@@ -52,7 +52,7 @@ yourator跟前兩個有做出差異化，所以比較難跟數字人力銀行擺
 無聲卡
 
 > PS:面試我的主管有寫了篇文章介紹公司，面試前可以先讀一下  
-> [從 1 到 50 — 我在 inline 的 640 天](https://medium.com/inline.tw/%E5%BE%9E-1-%E5%88%B0-50-%E6%88%91%E5%9C%A8-inline-%E7%9A%84-640-%E5%A4%A9-2cfc8c913fe0)
+> [從 1 到 50 — 我在 inline 的 640 天](https://medium.com/inline.tw/%E5%BE%9E-1-%E5%88%B0-50-%E6%88%91%E5%9C%A8-inline-%E7%9A%84-640-%E5%A4%A9-2cfc8c913fe0){: target="_blank"}
 
 ---
 

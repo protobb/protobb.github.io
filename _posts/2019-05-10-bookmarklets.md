@@ -20,13 +20,13 @@ javascript: (function() {
 })()
 ```
 我有在github上開一個repo放我寫過的小工具，可以參考看看  
-[janelin612/bookmarklets](https://github.com/janelin612/bookmarklets)
+[janelin612/bookmarklets](https://github.com/janelin612/bookmarklets){: target="_blank"}
 
 ## 限制
 這東西肯定不是萬能的，需要注意以下幾點 
 + 長度：他被視為一段網址，長度受到瀏覽器的網址長度限制，因此在開發上就是要努力精簡程式碼啦。
-+ [CORS](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/CORS)：別忘了他還是在前端執行的，所以它一樣要遵守跨網域存取的規範，這其實大大限制了小工具能做的事情，但沒辦法嘛，安全性問題。
++ [CORS](https://developer.mozilla.org/zh-TW/docs/Web/HTTP/CORS){: target="_blank"}：別忘了他還是在前端執行的，所以它一樣要遵守跨網域存取的規範，這其實大大限制了小工具能做的事情，但沒辦法嘛，安全性問題。
 
 ## 後記
-+ 如果你是Firefox的使用者，可以使用[程式碼速記本](https://developer.mozilla.org/zh-TW/docs/Tools/Scratchpad)協助開發，比F12的主控台好寫(但你還是得開F12看console就是了)
-+ 這玩意如果是惡意的用途，就算是一種[Self-XSS](https://en.wikipedia.org/wiki/Self-XSS)，所以拿到別人分享的小工具還是要先看一下程式碼有沒有問題不要傻傻地就執行下去了
++ 如果你是Firefox的使用者，可以使用[程式碼速記本](https://developer.mozilla.org/zh-TW/docs/Tools/Scratchpad){: target="_blank"}協助開發，比F12的主控台好寫(但你還是得開F12看console就是了)
++ 這玩意如果是惡意的用途，就算是一種[Self-XSS](https://en.wikipedia.org/wiki/Self-XSS){: target="_blank"}，所以拿到別人分享的小工具還是要先看一下程式碼有沒有問題不要傻傻地就執行下去了

@@ -29,7 +29,7 @@ ADT全名Android Development Toolkit，把它當成是Eclipse跟Android SDK 溝�
 這步驟才是這篇文章真正要講的東西，你要是胡亂裝就會沒辦法用了。  
 在整理出這篇心得之前，我曾經幹過以下的事情：
 + 跟Android Studio共用SDK
-+ 去[AS官網](https://developer.android.com/studio/#downloads)下載最新的獨立SDK Tools
++ 去[AS官網](https://developer.android.com/studio/#downloads){: target="_blank"}下載最新的獨立SDK Tools
 
 結果就是通通都不能用，只會顯示錯誤訊息
 
@@ -37,7 +37,7 @@ ADT全名Android Development Toolkit，把它當成是Eclipse跟Android SDK 溝�
     The Android Developer Toolkit may not work properly.
 
 ### 正確的作法
-會出錯的原因是Google早就[停止支援ADT](https://android-developers.googleblog.com/2016/11/support-ended-for-eclipse-android.html)了，現在的SDK都是專為Android Studio設計的，所以你要是用最新提供的SDK必死無疑。**請獨立下載一個舊版的，並放在另一個資料夾裡面**
+會出錯的原因是Google早就[停止支援ADT](https://android-developers.googleblog.com/2016/11/support-ended-for-eclipse-android.html){: target="_blank"}了，現在的SDK都是專為Android Studio設計的，所以你要是用最新提供的SDK必死無疑。**請獨立下載一個舊版的，並放在另一個資料夾裡面**
 
 舊版SDK下載連結：
 + [android-sdk_r24.4.1-windows.zip](https://dl.google.com/android/android-sdk_r24.4.1-windows.zip)

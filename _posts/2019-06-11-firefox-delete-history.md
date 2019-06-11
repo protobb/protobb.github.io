@@ -4,7 +4,7 @@ title:  "Firefox只清除某些指定的瀏覽紀錄"
 image: /public/res/1280px-Firefox.png
 ---
 ![](/public/res/1280px-Firefox.png)  
-大概是好幾年前，那時還沒有強制禁用[NPAPI](https://zh.wikipedia.org/wiki/NPAPI){: target="blank"}，我曾經有裝個擴充套件是可以指定刪除幾天前(例如180天前)然後瀏覽次數低於幾次的紀錄清掃器。後來隨著禁用舊式擴充套件之後這個套件也因為沒再更新而消失了。
+大概是好幾年前，那時還沒有強制禁用[NPAPI](https://zh.wikipedia.org/wiki/NPAPI){: target="_blank"}，我曾經有裝個擴充套件是可以指定刪除幾天前(例如180天前)然後瀏覽次數低於幾次的紀錄清掃器。後來隨著禁用舊式擴充套件之後這個套件也因為沒再更新而消失了。
 
 所以我就想說那我自己進DB下SQL總可以吧？
 
@@ -20,7 +20,7 @@ image: /public/res/1280px-Firefox.png
 
 # 開始下SQL
 ## 操作工具
-由於該資料庫使用的是sqlite，故我選擇在npm上安裝[`sqlite3`](https://www.npmjs.com/package/sqlite3){: target="blank"}作為我的讀寫工具
+由於該資料庫使用的是sqlite，故我選擇在npm上安裝[`sqlite3`](https://www.npmjs.com/package/sqlite3){: target="_blank"}作為我的讀寫工具
 
 ```shell
 $ npm i sqlite3
