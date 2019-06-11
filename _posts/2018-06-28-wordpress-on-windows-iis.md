@@ -18,8 +18,8 @@ image: /public/res/wordpress-265132_1280.jpg
 但礙於公司遲遲不幫我生出一台Linux Server，最後只好委屈點，跟公司其他服務共用一台主機了。
 
 # 安裝
-## 1. PHP環境
-> PHP下載頁:[PHP](http://php.net/downloads.php)  
+## 1. 準備PHP環境
+> 下載頁:[PHP](http://php.net/downloads.php){: target="_blank"}  
 
 ### 下載&安裝
 選Windows版，然後就選最新穩定版就對了  
@@ -32,8 +32,7 @@ image: /public/res/wordpress-265132_1280.jpg
 接著開始設定，資料夾根目錄內有兩個檔案  
 分別是`php.ini-development`&`php.ini-production`，挑一個複製出來，重新命名成`php.ini`，他會成為你正式的設定檔。  
 要異動的設定有下面幾個:
-+ 732行 `extension_dir` 指定成你解壓縮好的位置裡面的`/ext`，像我就設定為`C:/php/ext`
-> 注意斜線方向是 / 不是 \
++ 732行 `extension_dir` 指定成你目錄內的`ext`資料夾，例如`C:\php\ext`
 + 749行 `cgi.force_redirect = 0`
 + 769行 `cgi.fix_pathinfo=1`
 + 782行 `fastcgi.impersonate = 1`
@@ -47,24 +46,24 @@ image: /public/res/wordpress-265132_1280.jpg
 
 以上大概就完成PHP的設定了 :D
 
-## 2. MySQL安裝
-> [Download MySQL Installer](https://dev.mysql.com/downloads/installer/)
+## 2. 安裝MySQL
+> 下載頁:[Download MySQL Installer](https://dev.mysql.com/downloads/installer/){: target="_blank"}
 
 mysql我不太熟悉，所以選擇直接用官方提供的wizard安裝  
 解壓縮後就照著安裝步驟走，除了以下事情要注意之外都用預設值就好，這樣就可以順利完成安裝了
-+ Authentication Type : 安裝的建議選項是`caching_sha2_password`，但我發現裝好之後會導致Wordpress無法順利連接mysql，所以又重新回來這邊設定，改成`Standard`
++ Authentication Type : 預設選項是`caching_sha2_password`，但我發現裝好之後會導致Wordpress無法順利連接mysql，所以又重新回來這邊設定，改成`Standard`
 
 ### 設定
 如果上面都照我說的走，那你應該有MySQL Workbench這套GUI工具可以使用，就用它來完成後續的設定吧
-+ 開一顆DB : 上方工具列選`Create a new schema`，然後命名為`wordpress`，Charset設成`utf8`後存檔
-+ 建立使用者 : 左方工具選`Users and Privileges`,下方`Add Account`選下去，然後把帳號密碼設一設
+1. 開一顆DB : 上方工具列選`Create a new schema`，然後命名為`wordpress`，Charset設成`utf8`後存檔
+2. 建立使用者 : 左方工具選`Users and Privileges`,下方`Add Account`選下去，然後把帳號密碼設一設
 > Authentication Type記得要選`Standard`
-+ 給予權限 : 接續剛剛建立使用者的部分，切換分頁到`AdministrativeRoles`把該給的權限給一給，然後最後一個分頁`SchemaPrivileges`把剛剛開好的DB開放給他使用
+3. 給予權限 : 接續剛剛建立使用者的部分，切換分頁到`AdministrativeRoles`把該給的權限給一給，然後最後一個分頁`SchemaPrivileges`把剛剛開好的DB開放給他使用
 
 以上即為mysql設定
 
-## 3. Wordpress安裝
-> 下載頁:[Taiwan 正體中文— WordPress](https://tw.wordpress.org/releases/)
+## 3. 安裝Wordpress
+> 下載頁:[Taiwan 正體中文— WordPress](https://tw.wordpress.org/releases/){: target="_blank"}
 
 一樣，下載，解壓縮到喜歡的位置，我是直接放在`C:\inetpub\wwwroot\wordpress`這樣比較省事，不用再設定一次IIS的資料夾權限
 
@@ -95,11 +94,13 @@ iis除了把站點開起來之外還有以下事情要設定:
 # 後續問題
 ### 外掛安裝失敗
 於安裝完成後，遇到一個問題是每次要安裝外掛他都顯示  
-"No working transports found"  
+
+    No working transports found
+
 上網估狗了一下發現似乎是curl無法使用  
 解法如下: 
 1. php設定: 請回頭檢查php extension的curl跟openssl有沒有開
 2. 複製lib檔: 將php中libeay32.dll,ssleay32.dll,php_curl.dll,libssh2.dll複製到windows/system32
-3. 安裝[curl](https://curl.haxx.se/download.html#Win32): 
+3. 安裝[curl](https://curl.haxx.se/download.html#Win32){: target="_blank"}: 
     + 下載`Win32 CAB`
     + 解壓縮，然後把目錄加到環境變數
