@@ -11,7 +11,7 @@ image: /public/res/tars.jpg
 這邊主要Focus在工作上的一些心得，所以應該都是以軟體工程的討論為主，不太會有個人生活的小故事，應該啦。
 
 ### 為啥取這個名字
-Tars是電影[星際效應](https://zh.wikipedia.org/wiki/%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A)裡的其中一個機器人
+Tars是電影[星際效應](https://zh.wikipedia.org/wiki/%E6%98%9F%E9%99%85%E7%A9%BF%E8%B6%8A){: target="_blank"}裡的其中一個機器人
 
 ![](/public/res/tars.jpg)
 
@@ -22,3 +22,6 @@ Tars是電影[星際效應](https://zh.wikipedia.org/wiki/%E6%98%9F%E9%99%85%E7%
 ### 部落格名稱的由來
 Intertidal Zone是潮間帶的意思  
 這個名字主要是呼應自我學生時期的綽號，那時候在跟Google Play註冊開發者資訊的時候臨時起意，後來覺得滿有意思的，就這樣沿用下來了。
+
+### 聯絡我
+由於我的私人SNS幾乎都是封閉狀態(上鎖、私密帳號之類的)，直接來加我好友我可能也不會回應，還是寫email吧，連結在側邊欄。
