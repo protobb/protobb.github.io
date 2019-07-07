@@ -67,11 +67,11 @@ function decode(text) {
     if (!text)
         return "";
 
-    //string to char[]
-    let byteArr = [];
+    //string to array
+    let arr = [];
     for (let i = 0; i < text.length; i++) {
-        byteArr.push(text.charCodeAt(i));
+        arr.push(text.charCodeAt(i));
     }
-    return new TextDecoder().decode(new Uint8Array(charArr));
+    return new TextDecoder().decode(new Uint8Array(arr));
 }
 ```
