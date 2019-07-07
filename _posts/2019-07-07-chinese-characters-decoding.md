@@ -63,7 +63,17 @@ String.fromCharCode(parseInt('00111010100011111',2)) //'生'
 ---
 
 ## 補充
-整篇文章完成後才發現前面寫了一大堆，其實一行就可以搞定了，太尷尬了吧  
+整篇文章完成後才發現前面寫了一大堆，其實有更簡單的做法  
 ```javascript
-new TextDecoder().decode(new Uint8Array(text))
+function decode(text) {
+    if (!text)
+        return "";
+
+    let charArr = [];
+    for (let i = 0; i < text.length; i++) {
+        charArr.push(text.charCodeAt(i));
+    }
+
+    return new TextDecoder().decode(new Uint8Array(charArr));
+}
 ```
