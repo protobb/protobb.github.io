@@ -2,7 +2,7 @@
 layout: post
 title:  "JS處理中文亂碼問題"
 image: /public/res/hex-to-string.jpg
-description: "記錄一次中文亂碼的轉檔過程並分享最後完成的 byte-array to string 轉檔程式"
+description: "記錄一次中文亂碼的轉檔過程並分享最後的解法"
 ---
 
 昨天從FB下載了一份包含所有對話紀錄的JSON檔，但裡面的中文字編碼有問題，通通變成下面這個樣子
@@ -60,18 +60,10 @@ String.fromCharCode(parseInt('00111010100011111',2)) //'生'
 + 組資料的地方如果可以直接用`<<`跟`>>`進行位元計算性能應該會比字串處理提升很多，改天再來修改程式碼吧。
 + 實測發現emoji轉不出來🤔🤔🤔
 
-## 補充
-整篇文章完成後才發現有更簡單的方法可以完成，在此附上  
-```javascript
-function decode(text) {
-    if (!text)
-        return "";
+---
 
-    //string to array
-    let arr = [];
-    for (let i = 0; i < text.length; i++) {
-        arr.push(text.charCodeAt(i));
-    }
-    return new TextDecoder().decode(new Uint8Array(arr));
-}
+## 補充
+整篇文章完成後才發現前面寫了一大堆，其實一行就可以搞定了，太尷尬了吧  
+```javascript
+new TextDecoder().decode(new Uint8Array(text))
 ```
