@@ -56,7 +56,9 @@ String.fromCharCode(parseInt('00111010100011111',2)) //'生'
 <script src="https://gist.github.com/janelin612/464328333f11b9332a3dbadf38c3dfc6.js"></script>
 
 ## 後記
-+ 好久好久沒有碰到需要直接操作位元的問題，大學修的計概都還給教授了...
++ 好久沒有碰到需要直接操作位元的問題，大學修的計概都還給教授了Orz
 + 組資料的地方如果可以直接用`<<`跟`>>`進行位元計算性能應該會比字串處理提升很多，改天再來修改程式碼吧。
-+ 或許不要用 javascript，改用 java 或 c++ 會比較好寫?(甚至說不定不用寫可以直接轉)
 + 實測發現emoji轉不出來🤔🤔🤔
+
+最後想說的是，這個編碼轉換程式，如果不採用 javascript，而是改用 java 實作的話，程式碼會精簡非常多...
+<script src="https://gist.github.com/janelin612/50d024c0a428386b4566458bb8d179f7.js"></script>
