@@ -1,9 +1,11 @@
 ---
 layout: post
 title:  "使用Blueprint撰寫API文件"
+image: /public/res/blueprintapi.jpg
 ---
+![](/public/res/blueprintapi.jpg)
 
-稍微記錄一下使用[Blueprint](https://apiblueprint.org/)作為API文件生成工具的小小心得
+稍微記錄一下使用[Blueprint](https://apiblueprint.org/){: target="_blank"}作為API文件生成工具的小小心得
     
 我自己過去都用Markdown在寫文件，但是基於md檔本身其實格式過於基本，對於要排版出好閱讀的API文件依舊稍嫌不足，Blueprint本身的概念剛好補足了我對這塊的需求：
 
@@ -15,12 +17,14 @@ title:  "使用Blueprint撰寫API文件"
 
 + Markdown Editor : 不用多作解釋了吧，自己愛用啥就用啥，反正他就只是要寫MD檔，我目前是用VSCode
 + Aglio : 主要的渲染器，由`npm`安裝吧
-		
-		npm install -g aglio
+
+```shell		
+npm install -g aglio
+```
 
 ## 語法介紹
 
-[官方說明文件](https://apiblueprint.org/documentation/tutorial.html) 要學會怎麼寫文件，首先當然是看寫文件的工具的文件(這啥繞口令)    
+[官方說明文件](https://apiblueprint.org/documentation/tutorial.html){: target="_blank"} 要學會怎麼寫文件，首先當然是看寫文件的工具的文件(這啥繞口令)    
 以下簡單紀錄一下我有用到的入門語法：
 
 ### metadata
@@ -99,9 +103,10 @@ title:  "使用Blueprint撰寫API文件"
 ## 輸出
 寫完後使用aglio渲染並輸出
 
-	aglio -i MD檔名.md -o HTML檔名.html                  //最精簡的寫法
-	aglio --theme slate -i MD檔名.md -o HTML檔名.html    //輸出深色版本
-
+```shell		
+aglio -i MD檔名.md -o HTML檔名.html                  //最精簡的寫法
+aglio --theme slate -i MD檔名.md -o HTML檔名.html    //輸出深色版本
+```
 
 ## 補充
-另一個我覺得寫得很好的教學文件: [https://yami.io/api-blueprint-tutorial/](https://yami.io/api-blueprint-tutorial/)
+另一個我覺得寫得很好的教學文件: [https://yami.io/api-blueprint-tutorial/](https://yami.io/api-blueprint-tutorial/){: target="_blank"}
