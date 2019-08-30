@@ -7,7 +7,7 @@ image: /public/res/DSC_6549.jpg
 ![](/public/res/DSC_6547.jpg)
 靠鍵盤吃飯的軟體工程師幫自己準備一把好的鍵盤也是一種投資，但我自己在租屋處用的鍵盤線都佈好了懶得每天拔來拔去，所以就決定買第二把機械鍵盤。
 
-我原先是使用OZONE的[Strike Battle 87](http://www.coolpc.com.tw/phpBB2/viewtopic.php?f=77&t=166565)，是一把80%的茶軸，個人使用的很習慣，所以我就以80%茶軸作為目標去找，最後讓我找到了這把Ducky的天際線。
+我原先是使用OZONE的[Strike Battle 87](http://www.coolpc.com.tw/phpBB2/viewtopic.php?f=77&t=166565){: target="_blank"}，是一把80%的茶軸，個人使用的很習慣，所以我就以80%茶軸作為目標去找，最後讓我找到了這把Ducky的天際線。
 
 <!-- more -->
 
@@ -35,3 +35,10 @@ image: /public/res/DSC_6549.jpg
 我本來是想說OZONE直接再買一把就好，還好有嘗試其他選擇，因為這兩把比起來，我比較愛Ducky的這把One2 Skyline
 ![](/public/res/DSC_6542.jpg)
 硬要講缺點應該就是沒背光了吧(背光只有純黑色的選擇，沒有天際線配色)，還有就是多媒體操作不像OZONE的這把這樣直接刻在鍵盤上簡單易懂，但這個部分應該就是故意保留彈性的FN設計吧，寫完這篇部落格之後該來好好翻說明書了...
+
+### 補充 巨集設定方法
+1. 按`Fn+2`切換成自定義的 Profile
+1. 按`Ctrl+Fn`直到燈號開始閃爍
+1. 按你要指定功能的按鈕
+1. 按你要取代的按鈕 (如果要指定多媒體的功能請看說明書)
+1. 按`Ctrl+Fn`結束設定
