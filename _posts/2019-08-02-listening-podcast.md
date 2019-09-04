@@ -18,7 +18,7 @@ image: /public/res/mic.jpg
 
 ## 收聽平台
 
-收聽平台百百種，大部分我有找到的都是 APP 的介紹，例如 [Google Podcast](https://podcasts.google.com/about){: target="_blank"} ，但這不符合我的收聽環境（辦公室，耳機是接在電腦上面），所以我最後選擇的工具是 [Spotify](https://open.spotify.com/genre/podcasts-page?){: target="_blank"}，它應該是電腦上比較方便的收聽選擇。
+收聽平台百百種，大部分我有找到的都是 APP 的介紹，例如 [Google Podcast](https://podcasts.google.com/about){: target="_blank"} ，但這不符合我的收聽環境（辦公室，耳機是接在電腦上面），所以我最後選擇的工具是 [Spotify](https://open.spotify.com/genre/podcasts-page?){: target="_blank"}，它應該是電腦上比較方便的收聽選擇。而且 Spotify 因為他的平台特性，你也很容易在上面探索其他的的頻道，我最近新發現的好幾個 Podcast 頻道都是在探索畫面隨機找來的。
 
 ## 我有在聽的 Podcast
 
@@ -36,6 +36,13 @@ image: /public/res/mic.jpg
 ### [佐編茶水間](https://open.spotify.com/show/2YwbsDE4rB2ATm7eTX0XTb){: target="_blank"}
 佐編茶水間來自[理想生活設計](https://zoeyk.co/about/){: target="_blank"}的主編所製作，我主要都聽她關於自媒體經營的相關主題。這一台是我分享的這幾個裡面商業氣息比較重的（中間都會宣傳自己的課程）但由於 Podcast 的特性，跳過廣告很方便，所以沒有構成太大的困擾。  
 佐編茶水間的每一集最後都會問受訪者：你的理想生活是什麼？ 真的是好問題吶，我的理想生活又是什麼呢？
+
+### [Firstory Lab 最偏激的 Podcast](https://open.spotify.com/show/5Ylv5ILpzcarG3ePjM1r1N){: target="_blank"}
+這頻道是在 Spotify 隨便找來聽的，這故事告訴我們取一個內容農場標題還是很有用的 (?)  
+他有好幾集的標題都是那種萬年無解的吵架題目，像是男女有沒有純友誼啦、怎麼定義成熟啦，但其實內容還算講得很有趣，並沒有流於一面倒的批判或者吵架之類的。
+
+另外值得一提的一點是 [Firstory](https://firstory.me/){: target="_blank"} 本身就是一個中文 Podcast 平台，所以這應該是官方自己主持的節目吧。
+
 
 ## 其他的電台?
 我聽過的可能還太少，直接推薦別人寫的文章比較快：
