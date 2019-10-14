@@ -35,14 +35,16 @@ image: /public/res/mic.jpg
 
 ### [佐編茶水間](https://open.spotify.com/show/2YwbsDE4rB2ATm7eTX0XTb){: target="_blank"}
 佐編茶水間來自[理想生活設計](https://zoeyk.co/about/){: target="_blank"}的主編所製作，我主要都聽她關於自媒體經營的相關主題。這一台是我分享的這幾個裡面商業氣息比較重的（中間都會宣傳自己的課程）但由於 Podcast 的特性，跳過廣告很方便，所以沒有構成太大的困擾。  
-佐編茶水間的每一集最後都會問受訪者：你的理想生活是什麼？ 真的是好問題吶，我的理想生活又是什麼呢？
 
 ### [Firstory Lab 最偏激的 Podcast](https://open.spotify.com/show/5Ylv5ILpzcarG3ePjM1r1N){: target="_blank"}
 這頻道是在 Spotify 隨便找來聽的，這故事告訴我們取一個內容農場標題還是很有用的 (?)  
-他有好幾集的標題都是那種萬年無解的吵架題目，像是男女有沒有純友誼啦、怎麼定義成熟啦，但其實內容還算講得很有趣，並沒有流於一面倒的批判或者吵架之類的。
+他有好幾集的標題都是那種萬年無解的吵架題目，像是男女有沒有純友誼啦、怎麼定義成熟啦，內容還算講得很有趣，但其實也沒有到真的很偏激就是了。
 
 另外值得一提的一點是 [Firstory](https://firstory.me/){: target="_blank"} 本身就是一個中文 Podcast 平台，所以這應該是官方自己主持的節目吧。
 
+### [頂樓加蓋](https://podcast.overbuild.io/){: target="_blank"}
+由一個我一直有在默默發囉的 Twitter 用戶經營的 Podcast，雖然目前聽起來比較像是閒聊，但閒聊的方向還算是我感興趣的內容（科技與工作相關）  
+> [如何為自己的 podcast 寫一個網站](https://medium.com/the-bayesian-trap/intro-to-overbuild-podcast-3d3ff725beba){: target="_blank"}
 
 ## 其他的電台?
 我聽過的可能還太少，直接推薦別人寫的文章比較快：
