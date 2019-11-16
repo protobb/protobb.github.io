@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "血源詛咒白金心得"
-image: \public\res\bloodborne.jpg
+image: /public/res/bloodborne.jpg
 ---
 ![](\public\res\bloodborne.jpg)
 獵人永不孤單！

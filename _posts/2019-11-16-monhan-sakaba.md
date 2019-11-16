@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "モンハン酒場到訪紀錄"
-image: \public\res\mhskb\IMG_20191107_191950.jpg
+image: /public/res/mhskb/IMG_20191107_191950.jpg
 ---
 
 作者外出取材｡:.ﾟヽ(*´∀`)ﾉﾟ.:｡  

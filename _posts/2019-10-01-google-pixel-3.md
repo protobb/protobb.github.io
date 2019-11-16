@@ -2,7 +2,7 @@
 layout: post
 title: "Pixel 3 滿月使用心得"
 description: 簡單紀錄一下這一個月來的使用心得，還有一些購買之前不太會去注意到的小問題
-image: \public\res\DSC_6729.jpg
+image: /public/res/DSC_6729.jpg
 ---
 
 ![](\public\res\DSC_6729.jpg)
