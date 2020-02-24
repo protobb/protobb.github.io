@@ -20,7 +20,7 @@ gem "jekyll-theme-hydeout", "~> 4.0.2"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12.1"
+  gem "jekyll-feed", "~> 0.13.0"
   gem 'jekyll-sitemap'
   gem "jekyll-paginate"
 end

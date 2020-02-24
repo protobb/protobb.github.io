@@ -25,6 +25,7 @@ plugins:
 paginate: 3
 feed:
   path: atom.xml
+  excerpt_only: true
 
 #Other vars
 ga_id: UA-38227412-4
